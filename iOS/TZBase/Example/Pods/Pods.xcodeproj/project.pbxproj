@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0469454520679311000D1A19 /* RouterDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0469454320679310000D1A19 /* RouterDispatcher.h */; };
-		0469454620679311000D1A19 /* RouterDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0469454320679310000D1A19 /* RouterDispatcher.h */; };
-		0469454720679311000D1A19 /* RouterDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469454420679310000D1A19 /* RouterDispatcher.m */; };
-		0469454820679311000D1A19 /* RouterDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469454420679310000D1A19 /* RouterDispatcher.m */; };
+		0469454B2067989C000D1A19 /* RouterDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 046945492067989B000D1A19 /* RouterDispatcher.h */; };
+		0469454C2067989C000D1A19 /* RouterDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 046945492067989B000D1A19 /* RouterDispatcher.h */; };
+		0469454D2067989C000D1A19 /* RouterDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469454A2067989C000D1A19 /* RouterDispatcher.m */; };
+		0469454E2067989C000D1A19 /* RouterDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469454A2067989C000D1A19 /* RouterDispatcher.m */; };
 		0662498B220B30B3636960E889144169 /* Pods-TZBase_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD23DBE40320EBB8FC7135C545B35F5C /* Pods-TZBase_Tests-dummy.m */; };
 		06F49D87ABDE6EF05314B768C60D5D5C /* UIApplication+TZUserActionStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 6852310C5971D1D5CDA2509B43FACA45 /* UIApplication+TZUserActionStatistics.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0CC76C91A43F672BFF0368CBAEA38B27 /* TZBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C75E5665C25B26DDB222652F8A0A6E21 /* TZBase-dummy.m */; };
@@ -95,8 +95,8 @@
 
 /* Begin PBXFileReference section */
 		0096A0BB2F24884A38DF373D78E6B8D3 /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0469454320679310000D1A19 /* RouterDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouterDispatcher.h; sourceTree = "<group>"; };
-		0469454420679310000D1A19 /* RouterDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouterDispatcher.m; sourceTree = "<group>"; };
+		046945492067989B000D1A19 /* RouterDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouterDispatcher.h; sourceTree = "<group>"; };
+		0469454A2067989C000D1A19 /* RouterDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouterDispatcher.m; sourceTree = "<group>"; };
 		057675679F37E7D5A112E865538440F5 /* TZRouteNavigator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZRouteNavigator.m; path = TZBase/Classes/TZRouteNavigator.m; sourceTree = "<group>"; };
 		05D7B630C7A14B924F6179EBB0993C6B /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
 		088906BCACA6183E9984432C3620A44B /* UIViewController+TZUserPageStatistics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TZUserPageStatistics.h"; sourceTree = "<group>"; };
@@ -248,12 +248,12 @@
 			isa = PBXGroup;
 			children = (
 				CE615F35C89DA0AA177656D7B17F3BAC /* TZRouteConnectorProtocol.h */,
+				046945492067989B000D1A19 /* RouterDispatcher.h */,
+				0469454A2067989C000D1A19 /* RouterDispatcher.m */,
 				E7A62F49A80D3338361388B2E6B6DC53 /* TZRouteMediator.h */,
 				F77CE2FCF74C5B9AB0F8682D0E1FD2F0 /* TZRouteMediator.m */,
 				3544671E78C9A6BCF3F9B5F199085E67 /* TZRouteNavigator.h */,
 				057675679F37E7D5A112E865538440F5 /* TZRouteNavigator.m */,
-				0469454320679310000D1A19 /* RouterDispatcher.h */,
-				0469454420679310000D1A19 /* RouterDispatcher.m */,
 				20EF0CE19E04DF1764A0B2047D0CB17F /* Stat */,
 				9B791416DCA75B214D795B5B020709D2 /* Support Files */,
 			);
@@ -445,7 +445,7 @@
 				9434DE3910E6A435265ED62225B4D97F /* TZRouteConnectorProtocol.h in Headers */,
 				B462B6D88EF5595F2FA123AF138EDD2A /* TZRouteMediator.h in Headers */,
 				745C73CF54E96D118D3DD2F0AB67A4F6 /* TZRouteNavigator.h in Headers */,
-				0469454620679311000D1A19 /* RouterDispatcher.h in Headers */,
+				0469454C2067989C000D1A19 /* RouterDispatcher.h in Headers */,
 				FE6CF7D5DB743916FE7F09FC393A6308 /* TZStatisticInterceptionManager.h in Headers */,
 				B765C3117E4CF793E5843F2F47137F62 /* TZUserStatistics.h in Headers */,
 				06F49D87ABDE6EF05314B768C60D5D5C /* UIApplication+TZUserActionStatistics.h in Headers */,
@@ -469,7 +469,7 @@
 			files = (
 				7229B182A392FF577FA24236AD3FBA56 /* Aspects-umbrella.h in Headers */,
 				1215D7E033A55DC07483D9327D0F08AD /* Aspects.h in Headers */,
-				0469454520679311000D1A19 /* RouterDispatcher.h in Headers */,
+				0469454B2067989C000D1A19 /* RouterDispatcher.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -634,7 +634,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0469454720679311000D1A19 /* RouterDispatcher.m in Sources */,
+				0469454D2067989C000D1A19 /* RouterDispatcher.m in Sources */,
 				F0AE7A90DC17757A4799C5FB36EEB83A /* Aspects-dummy.m in Sources */,
 				1940835D23ED4933E2D6E6E1860C7CE8 /* Aspects.m in Sources */,
 			);
@@ -653,7 +653,7 @@
 				2ADD90DB53E7A279DE03EA283C4587AA /* TZUserStatistics.m in Sources */,
 				7840889AC2498155A139FF50725A82AD /* UIApplication+TZUserActionStatistics.m in Sources */,
 				B80D898C8E66C9FEB578823E59C3AE2A /* UICollectionView+TZUserClickStatistics.m in Sources */,
-				0469454820679311000D1A19 /* RouterDispatcher.m in Sources */,
+				0469454E2067989C000D1A19 /* RouterDispatcher.m in Sources */,
 				B2EF68437A23A49A4CF9CC1B530822F2 /* UITableView+TZUserClickStatistics.m in Sources */,
 				0F8C9AC87A3CEC85F607E3BA64AAA2AC /* UIViewController+TZUserPageStatistics.m in Sources */,
 			);
