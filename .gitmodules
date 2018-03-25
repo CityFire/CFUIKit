@@ -1,0 +1,15 @@
+[submodule "Carthage/Checkouts/SignalProtocolC"]
+	path = Downloads/ChatSecure-iOS-master/Carthage/Checkouts/SignalProtocolC
+	url = https://github.com/ChatSecure/SignalProtocolC.git
+[submodule "Carthage/Checkouts/SignalProtocol-ObjC"]
+	path = Downloads/ChatSecure-iOS-master/Carthage/Checkouts/SignalProtocol-ObjC
+	url = https://github.com/ChatSecure/SignalProtocol-ObjC.git
+[submodule "Carthage/Checkouts/Mantle"]
+	path = Downloads/ChatSecure-iOS-master/Carthage/Checkouts/Mantle
+	url = https://github.com/ChatSecure/Mantle.git
+[submodule "Carthage/Checkouts/Alamofire"]
+	path = Downloads/ChatSecure-iOS-master/Carthage/Checkouts/Alamofire
+	url = https://github.com/Alamofire/Alamofire.git
+[submodule "Carthage/Checkouts/HTMLReader"]
+	path = Downloads/ChatSecure-iOS-master/Carthage/Checkouts/HTMLReader
+	url = https://github.com/ChatSecure/HTMLReader.git
